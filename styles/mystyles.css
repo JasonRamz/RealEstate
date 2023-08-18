@@ -1,0 +1,22 @@
+.site-header {
+    color: white;
+    background-image: url(/img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
