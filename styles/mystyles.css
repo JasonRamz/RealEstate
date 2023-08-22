@@ -7,7 +7,7 @@ html{
     margin: 0;
 }
 a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 1.6rem;
 }
@@ -106,16 +106,10 @@ nav a{
     background-color: #dedede;
 }
 .house-item-img{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
+
 }
 .house-item-img img{
-    flex-basis: 31%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
+    max-width: 100%;
 }
 .house-item-text{
     padding: 1rem;
@@ -123,4 +117,38 @@ nav a{
 .house-item-text p.price{
     color: green;
     font-weight: 900;
+}
+/*contact*/
+
+.site-header{
+    background-color: #222222;
+    height: 10vh;
+}
+fieldset{
+    font-size: 1.6rem;
+}
+legend{
+    display: block;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 700;
+}
+.form-container{
+    margin: 1rem;
+}
+.form-label{
+    display: block;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 700;
+}
+.form-control{
+    width: 95%;
+    background-color: #e7e7e7;
+    border: none;
+    font-size: 1.6rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
 }
