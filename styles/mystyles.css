@@ -152,3 +152,140 @@ legend{
     padding: 0.4rem;
     border-radius: 0.5rem;
 }
+/*Media queries for screens smaller than 768px*/
+@media (max-width:767px)
+{
+    html{
+        font-size: 45%;
+    }
+    .container{
+        width: 100%;
+        padding:0 1rem;/* padding to the content*/
+    }
+    .houses-item-img img{
+        max-width: 60%;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 2.2rem;
+        margin-bottom: 1.5rem;
+    }
+    h3{
+        font-size: 1.6rem;
+
+    }
+    p{
+        font-size: 1.4rem;
+    }
+    nav a{
+        margin: 0.5rem 0; /*staking links vertical space*/
+    }
+    .site-init{
+        height: 70vh;/*increase height of the view*/
+    }
+    .about-item img{
+        width: 8rem;/* Adjust image size of the mobile view*/
+    }
+}
+/*media queries for screens medium size screens from 768px to 1023px(tables size)*/
+@media(min-width: 768px) and (max-width:1023px)
+{
+    html{
+        font-size: 45%;
+    }
+    .container{
+        width: 75%;
+    }
+    .site-header{
+        height: 55%;
+    }
+    .houses-item-img img{
+        max-width: 70%;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 2.2rem;
+        margin-bottom: 1.5rem;
+    }
+    h3{
+        font-size: 1.6rem;
+
+    }
+    p{
+        font-size: 1.4rem;
+    }
+    nav a{
+        margin: 0.5rem 0; /*staking links vertical space*/
+    }
+    .site-init{
+        height: 70vh;/*increase height of the view*/
+    }
+    .about-item img{
+        width: 8rem;/* Adjust image size of the mobile view*/
+    }
+}
+/*media queries for screens larger than 1024px(Desktop Size)*/
+@media(min-width: 1024px)
+{
+    .container{
+        width: 60%;
+    }
+    .houses-item-img img{
+        max-width: 90%;
+    }
+    .site-header{
+        height: 55%;
+    }
+    h1{
+        font-size: 4.2rem;
+    }
+    h2{
+        font-size: 3.8rem;
+    }
+    h3{
+        font-size: 2.9rem;
+
+    }
+}
+/*mobile devices(small screens*/
+@media only screen and (max-width:480px){
+    html{
+        font-size: 28%;
+    }
+    .container{
+        width: 95%;
+        padding:0 1rem;/* padding to the content*/
+    }
+    .houses-item-img img{
+        max-width: 40%;
+    }
+    h1{
+        font-size: 5.5rem;
+    }
+    h2{
+        font-size: 3.0rem;
+        margin-bottom: 1.5rem;
+    }
+    h3{
+        font-size: 1.2rem;
+
+    }
+    p{
+        font-size: 2.5rem;
+        font-family: arial;
+        font-weight: bold;
+    }
+    nav a{
+        margin: 0.5rem 0; /*staking links vertical space*/
+    }
+    .site-init{
+        height: 20vh;/*increase height of the view*/
+    }
+    .about-item img{
+        width: 8rem;/* Adjust image size of the mobile view*/
+    }
+}
