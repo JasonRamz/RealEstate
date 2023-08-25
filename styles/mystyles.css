@@ -271,15 +271,16 @@ legend{
         margin-bottom: 1.5rem;
     }
     h3{
-        font-size: 1.2rem;
+        font-size: 2rem;
 
     }
     p{
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-family: arial;
         font-weight: bold;
     }
     nav a{
+        font-size: 2rem;
         margin: 0.5rem 0; /*staking links vertical space*/
     }
     .site-init{
@@ -288,4 +289,13 @@ legend{
     .about-item img{
         width: 8rem;/* Adjust image size of the mobile view*/
     }
+    .btn-details{
+        background-color: rgb(147, 99, 26);
+    }
+    
+    .house-item-img img{
+        display: flex;
+        justify-content: center;
+    }
+
 }
